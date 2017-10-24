@@ -1,9 +1,5 @@
 package pl.wroc.uni.ift.android.quizactivity;
 
-/**
- * Created by jpola on 26.07.17.
- */
-
 public class Question {
 
     private int mTextResId;
@@ -30,4 +26,5 @@ public class Question {
     public void setAnswerTrue(boolean answerTrue) {
         mAnswerTrue = answerTrue;
     }
+
 }

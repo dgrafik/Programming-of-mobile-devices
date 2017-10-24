@@ -46,6 +46,7 @@ This means, in which direction it's contents should align.
     so it's best to be completely unique when possible).
     -->
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
@@ -114,6 +115,12 @@ This means, in which direction it's contents should align.
 
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="47dp"
+        android:padding="24dp"
+        android:id="@+id/apm_version" />
 
 
 </LinearLayout>
